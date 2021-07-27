@@ -8,19 +8,23 @@
           </b-col>
           <b-col  md="4" cols="12">
             <div class="column-three">
+              <p class="text-uni"> Síguenos en :   </p>
               <div class="social-media">
                 <span class="icon"><img src="../assets/components/footer/rs/facebook.png" alt=""></span>
                 <span class="icon"><img src="../assets/components/footer/rs/youtube.png" alt=""></span>
                 <span class="icon"><img src="../assets/components/footer/rs/linkedin.png" alt=""></span>
                 <span class="icon"><img src="../assets/components/footer/rs/twitter.png" alt=""></span>
+                
               </div>
+              <p class="text-uni">&copy; Universidad ESAN 2021</p>
+              <br>
               <p class="web"> www.esan.edu.pe  </p>
-              <p class="text-uni">&copy; Universidad de ESAN 2021 admision    </p>
+              
             </div>
           </b-col>
           <b-col md="4" cols="12">
             <div class="data">
-              <p class="correo">informes@esan.edu.pe</p>
+              <p class="correo">(511) 317-7200</p>
               <p class="direccion">Alonso de Molina 1652, Monterrico</p>
               <p class="distrito">Surco, Lima - Perú</p>
             </div>
@@ -50,7 +54,7 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom  20px
+  padding-top 10px
 }
 
 .distrito
@@ -77,8 +81,13 @@ export default {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: backg-footer;
+  background-color:#000000;
   color: white;
+  border-bottom:0;
+  border-left:0;
+  border-right:0;
+  border-top: 20px solid transparent;
+  border-image: url('../assets/footer-bor.png') 30 30 round;
 }
 
 .data {
